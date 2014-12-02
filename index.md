@@ -2,7 +2,6 @@
 layout: index
 ---
 
-Hi! I'm Ross Penman. I'm a 15-year-old web developer from Scotland.
+Hi! I'm Ross Penman. I'm a 16-year-old web developer from Scotland. Mostly, I use Ruby on Rails.
 
-I care a lot about computing education. I wrote [this](/computing-education) about it.
-
+On this website, you can find my [blog](/blog).
