@@ -17,6 +17,12 @@ body {
   }
 }
 
+// quick fix
+// TODO: move this into a better place
+img {
+  max-width: 100%;
+}
+
 /* Header Styles */
 /* Use a lot of ems so the header unit is easily resizeable */
 
