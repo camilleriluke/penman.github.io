@@ -3,7 +3,7 @@ layout: default
 title: How I test Sass
 ---
 
-**tl;dr: My tiny Sass unit testing library is simple to use and understand, can enforce your minimum supported Sass version, and encourages separation of concerns, and is easy to integrate with continuous integration. You can find it [on GitHub](https://github.com/penman/SassUnit).**
+**tl;dr: My tiny Sass unit testing library is simple to use and understand, can enforce your minimum supported Sass version, encourages separation of concerns, and is easy to integrate with continuous integration. You can find it [on GitHub](https://github.com/penman/SassUnit).**
 
 I maintain [Sass-Web-Fonts](https://github.com/penman/Sass-Web-Fonts), a fairly complex Sass mixin for using Google Web Fonts. Every time I tried to work on it, though, it was a huge pain to ensure I hadn’t broken existing functionality with new changes. I ended up doing it in [CodePen](https://codepen.io), writing a load of examples I hoped would cover the entire functionality of the mixin, pasting in the contents of the mixin at the top, and checking the compiled output. This made working on the mixin time-consuming and intimidating, so I looked for a better solution.
 
