@@ -1,4 +1,4 @@
-penman.github.io
+rosspenman.com
 =====================
 
-My personal website.
+The source code and content of my personal website, hosted at http://rosspenman.com.
