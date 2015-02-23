@@ -1,0 +1,11 @@
+@import "mixins";
+
+:target {
+  animation: flash 2s;
+}
+
+@include keyframes("flash") {
+  0%, 50% {
+    background: yellow;
+  }
+}

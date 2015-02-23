@@ -1,0 +1,28 @@
+blockquote {
+  margin: 1em 0 1em 1.5em;
+  color: gray;
+
+  > :first-child {
+    margin-top: 0;
+
+    &:before {
+      content: "“";
+    }
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+
+    &:after {
+      content: "”";
+    }
+  }
+
+  + address {
+    margin: 0 0 1em 1.5em;
+
+    &:before {
+      content: "— ";
+    }
+  }
+}
