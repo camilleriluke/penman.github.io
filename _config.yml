@@ -1,6 +1,7 @@
 permalink: /:title
-highlighter: true
+highlighter: rouge
 markdown: rdiscount
 name: Ross Penman
 url: "http://rosspenman.com"
-
+sass:
+  sass_dir: _sass
