@@ -45,7 +45,7 @@ pre { // code
   overflow: auto;
   font-size: 12px;
   line-height: (4/3);
-  box-shadow: 0 0 1em black;
+  box-shadow: 0 0 1em gray;
 
   &::-webkit-scrollbar {
     width: 0; // don't show vertical scrollbar
