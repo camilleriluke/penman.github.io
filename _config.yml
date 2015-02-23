@@ -1,5 +1,5 @@
 permalink: /:title
-highlighter: rouge
+highlighter: pygments
 markdown: rdiscount
 name: Ross Penman
 url: "http://rosspenman.com"
