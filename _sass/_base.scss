@@ -2,6 +2,7 @@ $baseline: 12px;
 
 body {
   font: #{$baseline}/#{2 * $baseline} Georgia, serif;
+  text-align: center; // make positioning easier
 }
 
 hr {

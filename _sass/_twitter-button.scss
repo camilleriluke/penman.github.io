@@ -1,0 +1,7 @@
+// By targeting inner iframe, position of loaded twitter button
+// can be adjusted without affecting position of unloaded link
+// which is fine as is.
+.twitter-button iframe {
+  margin: 1.4em auto 0;
+  display: block;
+}
