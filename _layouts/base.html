@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <meta name="description" content="{{ content | strip_html | truncate: 160 }}">
+  <meta name="description" content="{{ page.content | markdownify | split:'</p>' | first | strip_html }}">
   <meta property="og:image" content="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=50">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
@@ -12,7 +12,7 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}">
-  <meta name="twitter:description" content="{{ content | strip_html | truncate: 200 }}">
+  <meta name="twitter:description" content="{{ page.content | markdownify | strip_html | truncate: 200 }}">
   <meta name="twitter:image" content="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=120">
   <meta name="twitter:site" content="@PenmanRoss">
   <meta name="twitter:creator" content="@PenmanRoss">
@@ -34,7 +34,6 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 </head>
 <body>
-
   <header class="site-header">
     <img src="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=192" width="192" height="192" alt="" />
 
