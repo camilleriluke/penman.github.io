@@ -3,5 +3,6 @@ highlighter: pygments
 markdown: rdiscount
 name: Ross Penman
 url: "https://rosspenman.com"
+include: [".well-known"]
 sass:
   sass_dir: _sass
