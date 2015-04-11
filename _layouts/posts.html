@@ -2,10 +2,13 @@
 layout: base
 ---
 
+
 <div class="post-list">
   <ol>
   	{% for post in site.posts %}
+      {% unless post.id == "/terrorism-lies-government" %}
   	  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endunless %}
 	  {% endfor %}	 
   </ol>
 </div>
