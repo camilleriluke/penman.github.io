@@ -52,7 +52,6 @@
   <footer class="site-footer">
 
     <p class="twitter-button"><a href="https://twitter.com/PenmanRoss" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @PenmanRoss</a></div>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
     {% if page.pull_requests %}
       <p>Noticed an error in <i>{{ page.title }}</i>?<br><a href="https://github.com/penman/penman.github.com/edit/master/{{ page.path }}">Submit a pull request!</a></p>
@@ -69,13 +68,9 @@
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-36382565-2']);
     _gaq.push(['_trackPageview']);
-  
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
   </script>
+  <script src="//ssl.google-analytics.com/ga.js" async></script>
+  <script src="//platform.twitter.com/widgets.js"></script>
 
 </body>
 </html>
