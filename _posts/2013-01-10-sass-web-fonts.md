@@ -2,7 +2,7 @@
 layout: default
 title: Easy Google Web Fonts with Sass
 ---
-I recently wrote a Sass `@mixin` that makes [Google Web Fonts](http://google.com/webfonts) easier. You can download it and read the full documentation over at [GitHub](https://github.com/penman/web-fonts.scss), but here’s a quick tutorial.
+I recently wrote a Sass `@mixin` that makes [Google Web Fonts](https://www.google.com/fonts) easier. You can download it and read the full documentation over at [GitHub](https://github.com/penman/web-fonts.scss), but here’s a quick tutorial.
 
 The basic syntax is this:
 

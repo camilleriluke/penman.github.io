@@ -2,7 +2,7 @@
 layout: default
 title: Adding Support for @supports to Coda
 ---
-I use [Coda](http://panic.com/coda) for all of my web development, and recently, while creating this very site, I was playing around with various new-fangled <abbr title="Cascading StyleSheets">CSS</abbr> goodness and realised that Coda, as of version 2.0.7, did not _ahem_ support `@supports`. It wasn't a lovely shade of orange like all of the other `@rules`. So this is how to add custom `@rules` to Coda 2.x.
+I use [Coda](https://panic.com/coda/) for all of my web development, and recently, while creating this very site, I was playing around with various new-fangled <abbr title="Cascading StyleSheets">CSS</abbr> goodness and realised that Coda, as of version 2.0.7, did not _ahem_ support `@supports`. It wasn't a lovely shade of orange like all of the other `@rules`. So this is how to add custom `@rules` to Coda 2.x.
 
 1. The file we will be changing is read-only to everyone except the root user, so the easiest way to edit it is to fire up Terminal.app and enter `sudo nano "/Applications/Coda 2.app/Contents/Resources/CSS/Contents/Resources/SyntaxDefinition.xml"`. You may be asked for your password.
 <small>Note: This is the file for the CSS syntax mode. If you use Sass instead (and this means SCSS as well), replace CSS with Sass in the command above (or do both - future-proofing!).</small>

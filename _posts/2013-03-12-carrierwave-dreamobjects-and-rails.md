@@ -3,7 +3,7 @@ layout: default
 title: Using CarrierWave with DreamObjects in Rails
 ---
 
-I just started using [DreamObjects](http://www.dreamhost.com/cloud/dreamobjects/) for cloud storage. It is compatible with most [Amazon S3](http://aws.amazon.com/s3/) implementations, but at the moment it is about 20% of the price.
+I just started using [DreamObjects](https://www.dreamhost.com/cloud/storage/) for cloud storage. It is compatible with most [Amazon S3](https://aws.amazon.com/s3/) implementations, but at the moment it is about 20% of the price.
 
 I needed to use it with [CarrierWave](https://github.com/jnicklas/carrierwave), which is a Ruby gem for uploading files. It natively supports S3, but needed some extra configuration to work properly with DreamObjects. This is what I did to get CarrierWave, DreamObjects, and Rails working together correctly.
 

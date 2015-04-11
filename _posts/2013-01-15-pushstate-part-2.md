@@ -2,9 +2,9 @@
 layout: default
 title: history.pushState, Part 2
 ---
-Following on from my <a href="http://rosspenman.com/pushstate-jquery">introduction to `history.pushState`</a>, I thought I'd share a tip on making it more efficient.
+Following on from my <a href="/pushstate-jquery">introduction to `history.pushState`</a>, I thought I'd share a tip on making it more efficient.
 
-When we load in new content with AJAX, we only really use the main part of the document, `<main>` in my case. Headers and footers, etc. are discarded. One way could detect this is my appending a query string to the end of the URL, so http://rosspenman.com/sass-web-fonts would become http://rosspenman.com/sass-web-fonts?ajax=yes. But there is an even more elegant way to do it.
+When we load in new content with AJAX, we only really use the main part of the document, `<main>` in my case. Headers and footers, etc. are discarded. One way could detect this is my appending a query string to the end of the URL, so https://rosspenman.com/sass-web-fonts would become https://rosspenman.com/sass-web-fonts?ajax=yes. But there is an even more elegant way to do it.
 
 <del>I use PHP and WordPress on this site</del>, but this should be applicable to any other server-side language or framework.
 

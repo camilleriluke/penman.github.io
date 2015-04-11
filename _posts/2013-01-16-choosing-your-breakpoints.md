@@ -11,4 +11,4 @@ We should be picking breakpoints not based on device resolutions, but how well o
 
 The best way I have found to choose breakpoints is to use `em`s. Ems are a good way to distance yourself for device dimensions. You probably don't know how many `em`s wide an iPad is, and nor should you. With `em`s, you can pick a size that looks good, without worrying about what device that breakpoint is for.
 
-Using `em`s for breakpoints is also good for accessibility, as [Chris Coyier discovered](http://css-tricks.com/zooming-squishes/).
+Using `em`s for breakpoints is also good for accessibility, as [Chris Coyier discovered](https://css-tricks.com/zooming-squishes/).

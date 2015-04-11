@@ -14,7 +14,7 @@ The basic syntax for `history.pushState` is this:
 history.pushState({id: 'SOME ID'}, '', 'myurl.html');
 {% endhighlight %}
 
-If the current URL in the browser is http://rosspenman.com/path/to/page.html, the url will become http://rosspenman.com/path/to/myurl.html, just as if a link had been followed, and add this URL as a history entry.
+If the current URL in the browser is https://rosspenman.com/path/to/page.html, the url will become https://rosspenman.com/path/to/myurl.html, just as if a link had been followed, and add this URL as a history entry.
 
 As you can see, it takes three parameters. The first is an object that you will use to identify the history entry later, the second is referred to as the 'title' parameter, but is not currently implemented in any browser. <a href="https://developer.mozilla.org/en-US/docs/DOM/Manipulating_the_browser_history#The_pushState().C2.A0method">Mozilla recommend either passing it an empty string, or a short title for the new state.</a>
 
@@ -24,7 +24,7 @@ The final parameter is the URL you want to link the new state to. This doesn't h
 
 The ideal use for `history.pushState` is using it for every link on your site that links to another page on your site, while ignoring those that go to other sites.
 
-First, we will use <a href="http://jquery.com">jQuery</a> to get links on our site using `history.pushState` by default.
+First, we will use <a href="https://jquery.com">jQuery</a> to get links on our site using `history.pushState` by default.
 
 {% highlight javascript %}
 $(function() {

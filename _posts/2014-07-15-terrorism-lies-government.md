@@ -17,7 +17,7 @@ That was written circa 1946 by Martin Niemöller, describing how the Nazis gradu
 
 ---- 
 
-I visit the Guardian’s website, and open an article titled “[Isis threat justifies greater surveillance powers in UK, says Liam Fox](http://www.theguardian.com/uk-news/2014/jun/22/surveillance-powers-liam-fox-isis)”. It’s a short article reporting a couple of paragraphs spoken by a decreasingly relevant politician I’d never heard of before, but that doesn’t stop it triggering very strong emotions in me.
+I visit the Guardian’s website, and open an article titled “[Isis threat justifies greater surveillance powers in UK, says Liam Fox](https://www.theguardian.com/uk-news/2014/jun/22/surveillance-powers-liam-fox-isis)”. It’s a short article reporting a couple of paragraphs spoken by a decreasingly relevant politician I’d never heard of before, but that doesn’t stop it triggering very strong emotions in me.
 
 I take to Twitter to broadcast my opinion. I like my voice to be heard - keeping an opinion all to myself doesn’t accomplish very much. I like Twitter a lot because it makes it easy and efficient for my thoughts to be heard by anybody who cares to read them. It is both a meritocratic soapbox and a egalitarian discussion platform at the same time, it has already had momentous impact on modern democracy. During the Arab Spring, Twitter allowed activists to quickly circulate important information and opinion. Instant mass communication played a very significant role in the removal of some of the world’s most oppressive regimes.
 
@@ -49,7 +49,7 @@ But I’m not a politician. I’m not going to be checkmated into keeping my mou
 
 Terrorists, as the word implies, use violence to frighten people. As causes of death go, terrorism is pretty low in the overall rankings. It is estimated that four hundred times as many people die in car crashes than in terrorist attacks. But we don’t spend four hundred times as much money on road safety as we do on combating terrorism. And we certainly don’t fear car accidents four hundred times as much as terrorist attacks.
 
-This phenomenon has been noted before. I first heard about this on [an episode of Freakonomics Radio released in 2012](http://freakonomics.com/2012/08/15/whats-more-dangerous-than-a-shark/ "What’s More Dangerous Than a Shark?").
+This phenomenon has been noted before. I first heard about this on [an episode of Freakonomics Radio released in 2012](https://freakonomics.com/2012/08/15/whats-more-dangerous-than-a-shark/ "What’s More Dangerous Than a Shark?").
 
 > Human beings are generally quite bad at assessing risks. We tend to get worried about the big anomalous events - shark attacks, for instance… They are scary and they get a lot of news coverage, and then when they get a lot of news coverage, we’re convinced that they’re a lot more common than they are.
 
