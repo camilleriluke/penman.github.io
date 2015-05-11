@@ -1,0 +1,13 @@
+/* TEAM */
+
+Me: Ross Penman
+Contact: ross@pen.mn
+Twitter: @PenmanRoss
+GitHub: @penman
+Location: Scotland
+
+/* SITE */
+
+Last update: 2015-05-11
+Standards: HTML5, CSS3
+Software: Jekyll
