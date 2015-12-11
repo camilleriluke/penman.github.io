@@ -1,2 +1,2 @@
-User-agent: *
-Disallow: /terrorism-lies-government/
+User-agent: TurnitinBot
+Disallow: /
