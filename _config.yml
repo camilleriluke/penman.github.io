@@ -1,6 +1,9 @@
 permalink: /:title
 highlighter: rouge
-markdown: rdiscount
+markdown: kramdown
+kramdown:
+  smart_quotes: apos,apos,ldquo,rdquo
+  auto_ids: false
 name: Ross Penman
 url: "https://rosspenman.com"
 include: [".well-known"]
