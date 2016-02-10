@@ -1,12 +1,10 @@
 permalink: /:title
 highlighter: rouge
-markdown: kramdown
-kramdown:
-  smart_quotes: apos,apos,ldquo,rdquo
-  auto_ids: false
+markdown: redcarpet
 name: Ross Penman
 url: "https://rosspenman.com"
-include: [".well-known"]
+include:
+  - .well-known
 exclude:
   - README.md
   - LICENSE.md
