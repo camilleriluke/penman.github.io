@@ -1,5 +1,21 @@
-permalink: /:title
+# GitHub Pages defaults
+kramdown:
+  input: GFM
+  hard_wrap: false
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
+
+# GitHub Pages enforced
+lsi: false
+safe: true
+incremental: false
 highlighter: rouge
+gist:
+  noscript: false
+
+# Custom configuration
+permalink: /:title
 markdown: redcarpet
 name: Ross Penman
 url: "https://rosspenman.com"
