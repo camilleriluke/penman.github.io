@@ -10,9 +10,9 @@ I recently made use of two of these lesser-known features: loops and color funct
 
 The `adjust-hue` function allows you to adjust the hue of a color by a given value in degrees. Like this:
 
-{% highlight scss %}
+```scss
 $blue: adjust-hue(red, 240deg);
-{% endhighlight %}
+```
 
 That's all there is to it. You can already see how powerful this can be. Adjusting hues is a sure-fire way to get colors that look great together.
 
@@ -22,19 +22,19 @@ You might be familiar with for loops in programming languages, but, while it may
 
 So we could do this.
 
-{% highlight scss %}
+```scss
 @for $i from 1 to 5 {
   body :nth-child(#{$i}) {
     left: $i * 5px;
   }
 }
-{% endhighlight %}
+```
 
 ## Creating the color palette
 
 If we have a container element `.container`, and 6 `<div>`s inside (one for each color), we can do this:
 
-{% highlight scss %}
+```scss
 .container div {
   width: 3em;
   height: 3em;
@@ -49,13 +49,13 @@ If we have a container element `.container`, and 6 `<div>`s inside (one for each
     }
   }
 }
-{% endhighlight %}
+```
 
 `360deg` is assuming you want the colors to span the entire visible spectrum. If you want to say, have your colors range only half the spectrum, use `180deg` instead of `360deg`, and you can add some extra degrees on if you want to offset where in the spectrum the colors start.
 
 Here is an example of a more advanced color palette.
 
-{% highlight scss %}
+```scss
 .container div {
   width: 3em;
   height: 3em;
@@ -72,4 +72,4 @@ Here is an example of a more advanced color palette.
     }
   }
 }
-{% endhighlight %}
+```

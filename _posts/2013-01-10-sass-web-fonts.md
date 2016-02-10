@@ -6,31 +6,31 @@ I recently wrote a Sass `@mixin` that makes [Google Web Fonts](https://www.googl
 
 The basic syntax is this:
 
-{% highlight scss %}
+```scss
 @import "web-fonts";
 @include web-font((Open Sans));
-{% endhighlight %}
+```
 
 Where “Open Sans” is the font we want to import.
 
 Multiple fonts can be specified like this.
 
-{% highlight scss %}
+```scss
 @import "web-fonts";
 @include web-font((Open Sans, Damion));
-{% endhighlight %}
+```
 
 Here, Open Sans and Damion will be imported.
 
 We can also specify font variants.
 
-{% highlight scss %}
+```scss
 @import "web-fonts";
 @include web-font(
   (Open Sans , Damion),
   (italic 500, italic)
 );
-{% endhighlight %}
+```
 
 Both Open Sans and Damion will be imported with both their normal and italic variants, and Open Sans will have a weight of 500, while Damion will have the default weight of 400.
 

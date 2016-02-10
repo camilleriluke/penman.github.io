@@ -13,7 +13,7 @@ I needed to create the file `config/initializers/carrierwave.rb`, but I am led t
 
 I used the following for the contents of the newly-created file:
 
-{% highlight ruby %}
+```ruby
 CarrierWave.configure do |config|
   config.fog_credentials = {
     provider: "AWS",
@@ -27,7 +27,7 @@ CarrierWave.configure do |config|
   config.fog_authenticated_url_expiration = 600
   config.asset_host = "http://<YOUR BUCKET NAME>.objects.dreamhost.com"
 end
-{% endhighlight %}
+```
 
 
 Also, in my Uploader file, I changed `storage :file` to `storage :fog`.
