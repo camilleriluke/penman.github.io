@@ -16,7 +16,6 @@ gist:
 
 # Custom configuration
 permalink: /:title
-markdown: redcarpet
 name: Ross Penman
 url: "https://rosspenman.com"
 include:
