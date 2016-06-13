@@ -15,7 +15,7 @@ gist:
   noscript: false
 
 # Custom configuration
-permalink: /:title
+permalink: /:title/
 name: Ross Penman
 url: "https://rosspenman.com"
 include:
